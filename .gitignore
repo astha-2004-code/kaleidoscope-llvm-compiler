@@ -1,0 +1,48 @@
+# Build directories
+build/
+bin/
+lib/
+out/
+_build/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Compiler artifacts
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.pdb
+*.ilk
+*.dSYM/
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.vcxproj*
+!*.vcxproj.filters
+
+# LLVM temporary dumps
+*.ll
+*.bc
+*.s
